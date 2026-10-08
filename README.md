@@ -2,11 +2,10 @@
 
 React frontend prototype for a ride-booking service in Badin.
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
-- [README.md](README.md)
 - [package-lock.json](package-lock.json)
 - [package.json](package.json)
 - [public](public)
@@ -26,13 +25,17 @@ npm ci
 npm run start
 ```
 
-Browse the folders and linked notes above. This repository is a resource collection or documentation starter rather than a runnable application.
-
 ### Configuration and limitations
+
+Install dependencies inside the folder containing package.json. The React frontend needs a separate browser/build check; a production booking service is not established by this prototype.
 
 ### Validation
 
-Reviewed on 2026-10-08. JavaScript source files passed node --check. Browser interaction and production builds were not verified.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. 15 JavaScript files passed node --check; JSX/TypeScript production builds were not run. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
